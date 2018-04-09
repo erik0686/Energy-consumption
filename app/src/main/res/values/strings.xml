@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">A01196362 Electrodomesticos</string>
+    <string name="titulo_libro">titulo libro</string>
+    <string name="isbn">isbn</string>
+    <string name="fecha_publicacion">fecha de publicacion</string>
+    <string name="agregar_evento_nombre">Electrodoméstico:</string>
+    <string name="agregar_evento_watts_hora">Uso de energía:</string>
+    <string name="agregar_evento_hora">Hora =</string>
+    <string name="agregar_evento_hint_consumo">Horas de uso de electrodomestico</string>
+    <string name="agregar_evento_agregar">Agregar</string>
+    <string name="title_activity_navbar">NavbarActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Total_Licuadora">Licuadora:</string>
+    <string name="Total_Estereo">Estereo:</string>
+    <string name="Total_Cafetera">Cafetera:</string>
+    <string name="Total_Radiograbadora">Radiograbadora:</string>
+    <string name="Total_Lavadora">Lavadora:</string>
+    <string name="Total_Microondas">Microondas:</string>
+    <string name="Total_Plancha">Plancha:</string>
+    <string name="Total_Ventilador">Ventilador:</string>
+    <string name="Total_Televisor">Televisor:</string>
+    <string name="Total_Refrigerador">Refrigerador:</string>
+    <string name="Total_Mayor_consumo">Mayor consumo: </string>
+    <string name="Total_Menor_consumo">Menor Consumo: </string>
+    <string name="Total_Total">Total</string>
+
+
+
+</resources>

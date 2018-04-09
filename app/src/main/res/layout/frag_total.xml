@@ -1,0 +1,147 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="itesm.mx.a01196362_examen_ahorroenergia.FragReporte">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/et_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Fecha"
+        android:inputType="date" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_licuadora"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_estereo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_cafetera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_radiograbadora"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_lavadora"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_microondas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_plancha"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_ventilador"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_televisor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_refrigerador"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_mas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07"
+        android:text="@string/Total_Mayor_consumo" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_menos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07"
+        android:text="@string/Total_Menor_consumo" />
+
+    <TextView
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/text_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Total_Total" />
+
+</LinearLayout>
+
+</FrameLayout>

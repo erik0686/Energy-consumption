@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/image_electrodomestico"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:text="Nombre" />
+
+        <TextView
+            android:id="@+id/text_consumo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Uso de energia" />
+
+        <TextView
+            android:id="@+id/text_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hora" />
+
+    </LinearLayout>
+</LinearLayout>
