@@ -2,6 +2,9 @@
 
 This project allows you to see common house electric devices. It allows you to register how many times you have used them and give you the total energy consumption of each day. 
 
+
+Please feel free to create PR's or comment on any idea you have!
+
 ## Table of contents
 
 * [Da Team](#team)
@@ -34,3 +37,12 @@ After installing please you can follow this simple steps:
 ```bash
 $ git clone https://github.com/erik0686/Energy-consumption.git
 ```
+
+Or
+
+```bash
+$ git clone git@github.com:erik0686/Energy-consumption.git
+```
+
+
+git@github.com:erik0686/Energy-consumption.git
